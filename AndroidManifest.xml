@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.figuras"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.figuras.Principal"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.figuras.Areas"
+            android:label="@string/title_activity_areas" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.Volumenes"
+            android:label="@string/title_activity_volumenes" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.Mostrar"
+            android:label="@string/title_activity_mostrar" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.Cuadrado"
+            android:label="@string/title_activity_cuadrado" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.Rectangulo"
+            android:label="@string/title_activity_rectangulo" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.Triangulo"
+            android:label="@string/title_activity_triangulo" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.Circulo"
+            android:label="@string/title_activity_circulo" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.Esfera"
+            android:label="@string/title_activity_esfera" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.Cilindro"
+            android:label="@string/title_activity_cilindro" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.Cubo"
+            android:label="@string/title_activity_cubo" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.Cono"
+            android:label="@string/title_activity_cono" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.MostraResultados"
+            android:label="@string/title_activity_mostra_resultados" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.ResultadoCuadrado"
+            android:label="@string/title_activity_resultado_cuadrado" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.ResultadoRectangulo"
+            android:label="@string/title_activity_resultado_rectangulo" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.ResultadoTriangulo"
+            android:label="@string/title_activity_resultado_triangulo" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.ResultadoCirculo"
+            android:label="@string/title_activity_resultado_circulo" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.ResultadoEsfera"
+            android:label="@string/title_activity_resultado_esfera" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.ResultadoCilindro"
+            android:label="@string/title_activity_resultado_cilindro" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.ResultadoCono"
+            android:label="@string/title_activity_resultado_cono" >
+        </activity>
+        <activity
+            android:name="com.example.figuras.ResultadoCubo"
+            android:label="@string/title_activity_resultado_cubo" >
+        </activity>
+    </application>
+
+</manifest>

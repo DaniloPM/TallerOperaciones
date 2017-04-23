@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout2"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Cono" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp"
+        android:text="@string/cono"
+        android:textSize="30sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp" >
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/radio" />
+
+        <EditText
+            android:id="@+id/txtRadioCono"
+            android:layout_width="102dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingLeft="10dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="80dp"
+            android:paddingRight="0dp"
+            android:text="@string/altura" />
+
+        <EditText
+            android:id="@+id/txtAlturaCono"
+            android:layout_width="92dp"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:paddingLeft="10dp" >
+
+            <requestFocus />
+        </EditText>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="80dp" >
+
+        <Button
+            android:id="@+id/cmdCalcularCono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="calcularCono"
+            android:text="@string/calcular" />
+
+        <Button
+            android:id="@+id/cmdBorrarCono"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="borrar"
+            android:text="@string/borrar" />
+    </LinearLayout>
+
+</LinearLayout>
